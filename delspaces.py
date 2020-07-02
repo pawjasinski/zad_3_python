@@ -7,8 +7,6 @@ import fileinput
 os.chdir(os.getcwd())
 
 if __name__ == "__main__":
-    #os.chdir(os.getcwd())
-    #print(os.getcwd())
 
     if len(sys.argv) != 2:
         input("Niepoprawny argument, exit, press key")
