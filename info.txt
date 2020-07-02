@@ -1,0 +1,6 @@
+Program ma wstawiać spacje i dzielić na linie używając jedynie analizy częstotliwości (tzn. bez słowników!).
+
+Zaczynamy od tworzenia bazy danych częstotliwości po monogramów, bigramów, 3-,4- gramów (co najmniej) z plików
+tekstowych (najlepiej wziąć klasykę) ze spacjami. 5-gramy – przy możliwości (może wymagać dużo czasu).
+Potem taką bazę używamy do odtworzenia spacji w jakimś fragmencie tekstu (z innej książki), i sprawdzamy
+(statystycznie! proszę wymyślić jakiś wskaźnik), na ile dobrze nam to udało się.

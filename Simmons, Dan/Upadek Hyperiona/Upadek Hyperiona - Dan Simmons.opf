@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">96</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">0851690b-2bf2-424c-b9fd-a187419b67ab</dc:identifier>
+        <dc:title>Upadek Hyperiona</dc:title>
+        <dc:creator opf:file-as="Simmons, Dan" opf:role="aut">Dan Simmons</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.15.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2015-09-13T22:00:00+00:00</dc:date>
+        <dc:publisher>Wydawnictwo MAG</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">978-83-7480-603-9</dc:identifier>
+        <dc:language>pol</dc:language>
+        <meta content="{&quot;Dan Simmons&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2020-06-29T19:23:41+00:00" name="calibre:timestamp"/>
+        <meta content="Upadek Hyperiona" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="Upadek Hyperiona - Dan Simmons.jpg" title="Okładka" type="cover"/>
+    </guide>
+</package>
