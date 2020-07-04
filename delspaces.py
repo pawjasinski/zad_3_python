@@ -3,23 +3,28 @@
 
 import sys
 import os
-import fileinput
-os.chdir(os.getcwd())
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 2:
-        input("Niepoprawny argument, exit, press key")
-        exit(1)
+    if len(sys.argv) > 2:
+        input("Niepoprawny arg, exit, press any key")
+        sys.exit(1)
 
-    print(sys.argv[1])
+    for plik in sys.argv:
+        if plik == sys.argv[0]:
+            continue
+        print(plik)
 
-    file_or = sys.argv[1]
-    file_b = file_or + 'b.txt'
+    for file in sys.argv:
+        if plik == sys.argv[0]:
+            continue
+        try:
+            with open(file, 'r') as r, open(file+'b.txt', 'r') as w:
+                lines = r.readlines()
 
-    with open(file_or,'r') as r, open(file_b, 'w') as w:
-        lines = r.readlines()
-
-        for line in lines:
-            if not line.isspace():
-                w.write(line.replace(" ", ""))
+                for line in lines:
+                    if not line.isspace():
+                    w.write(line.replace(' ', ''))
+        except IOError:
+            input('could not open file ' + file + ' press any key')
+            sys.exit(1)
